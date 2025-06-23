@@ -4,24 +4,216 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hino - Internacional</title>
-    <link rel="stylesheet" href="siteinter.css" />
+    <title>Distintivos - Internacional</title>
+    <link rel="stylesheet" href="distintivos.css" />
 </head>
-<div class="container">
-    <header>
-        <img src="https://www.internacional.com.br/img/scinternacional.svg " width="200px" height="300px" />
-        <h1>Hino </h1>
-        <a href="file:///C:/Users/gabriela_ferreira152/Documents/GitHub/sitedointernacional/login/pag1login.html">Acesse
-            sua conta</a>
-    </header>
-<nav>
-    <a href="file:///C:/Users/gabriela_ferreira152/Documents/GitHub/sitedointernacional/Home/1pag.html">Home</a>
-    <a href="file:///C:/Users/gabriela_ferreira152/Documents/GitHub/sitedointernacional/Hist%C3%B3ria/historiapag.html">História</a>
-    <a href="file:///C:/Users/gabriela_ferreira152/Documents/GitHub/sitedointernacional/T%C3%ADtulos/pagtitulos.html">Títulos</a>
-    <a href="file:///C:/Users/gabriela_ferreira152/Documents/GitHub/sitedointernacional/%C3%8Ddolos/idolosvelhos.html">Ídolos</a>
-    <a href="file:///C:/Users/gabriela_ferreira152/Documents/GitHub/sitedointernacional/Beira-Rio/beirapag.html">Beira_rio</a>
-    <a href="file:///C:/Users/gabriela_ferreira152/Documents/GitHub/sitedointernacional/Mascote/sacipag.html">Mascote</a>
-    <a href="file:///C:/Users/gabriela_ferreira152/Documents/GitHub/sitedointernacional/Ex-Presidentes/ex.html">Ex_Presidentes</a>
-    <a href="file:///C:/Users/gabriela_ferreira152/Documents/GitHub/sitedointernacional/Hino/hino.html">Hino</a>
-    <a href="file:///C:/Users/gabriela_ferreira152/Documents/GitHub/sitedointernacional/Distintivos/logo.html">Distintivos</a>
-</nav>
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distintivos - Internacional</title>
+
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #a80000;
+            color: white;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: white;
+            color: #a80000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 30px;
+            position: relative;
+        }
+
+        header img {
+            height: 150px;
+            width: auto;
+        }
+
+        header h1 {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 30px;
+            font-size: 55px;
+            font-weight: bold;
+        }
+
+        header a {
+            color: #a80000;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            position: absolute;
+            top: 10px;
+            right: 30px;
+        }
+
+        /* Menu lateral - AGORA FUNDO BRANCO E LETRA VERMELHA */
+        nav {
+            background-color: white;
+            width: 180px;
+            position: fixed;
+            top: 170px;
+            left: 0;
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        nav a {
+            color: #a80000;
+            /* Letras vermelhas */
+            text-decoration: none;
+            padding: 10px 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: #ffd6d6;
+            /* Efeito de hover (opcional, fica um tom claro de vermelho) */
+        }
+
+        /* Conteúdo principal */
+        main {
+            margin-left: 200px;
+            padding: 40px;
+            background-color: #a80000;
+        }
+
+        .conteudo h2 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+        .conteudo h3 {
+            font-size: 20px;
+            margin: 20px 0 10px;
+        }
+
+        .conteudo p {
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        /* Imagens */
+        .imagens-distintivos {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+
+        .imagens-distintivos img {
+            width: 220px;
+            height: auto;
+            border: none;
+            border-radius: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <img src="https://www.internacional.com.br/img/scinternacional.svg" alt="Logo Internacional" />
+            <h1>Distintivos</h1>
+            <a href="file:///C:/Users/gabriela_ferreira152/Documents/GitHub/sitedointernacional/login/pag1login.html">Acesse
+                sua conta</a>
+        </header>
+
+        <nav>
+            <a href="file:///C:/Users/gabriela_ferreira152/Documents/GitHub/sitedointernacional/Home/1pag.html">Home</a>
+            <a
+                href="file:///C:/Users/gabriela_ferreira152/Documents/GitHub/sitedointernacional/Hist%C3%B3ria/historiapag.html">História</a>
+            <a
+                href="file:///C:/Users/gabriela_ferreira152/Documents/GitHub/sitedointernacional/T%C3%ADtulos/pagtitulos.html">Títulos</a>
+            <a
+                href="file:///C:/Users/gabriela_ferreira152/Documents/GitHub/sitedointernacional/%C3%8Ddolos/idolosvelhos.html">Ídolos</a>
+            <a
+                href="file:///C:/Users/gabriela_ferreira152/Documents/GitHub/sitedointernacional/Beira-Rio/beirapag.html">Beira_rio</a>
+            <a
+                href="file:///C:/Users/gabriela_ferreira152/Documents/GitHub/sitedointernacional/Mascote/sacipag.html">Mascote</a>
+            <a
+                href="file:///C:/Users/gabriela_ferreira152/Documents/GitHub/sitedointernacional/Ex-Presidentes/ex.html">Ex_Presidentes</a>
+            <a href="file:///C:/Users/gabriela_ferreira152/Documents/GitHub/sitedointernacional/Hino/hino.html">Hino</a>
+            <a
+                href="file:///C:/Users/gabriela_ferreira152/Documents/GitHub/sitedointernacional/Distintivos/logo.html">Distintivos</a>
+        </nav>
+
+        <main>
+            <section class="conteudo">
+                <h2>Distintivos</h2>
+
+                <h3>1909 - 1959</h3>
+                <p>
+                    O primeiro distintivo do Sport Club Internacional era formado com as iniciais – SCI – bordadas em
+                    vermelho sobre fundo branco,
+                    sem a borda também vermelha que apareceu logo em seguida.
+                </p>
+
+                <h3>1983 - 1992</h3>
+                <p>
+                    Em 83, uma mudança grande aconteceu: o traço das letras que formam o SCI do escudo se transformaram
+                    para o desenho mais próximo do que é utilizado hoje em dia.
+                    Ao mesmo tempo, removeu-se o adereço remetente ao título invicto, ficando apenas as estrelas acima
+                    do símbolo.
+                </p>
+
+                <h3>2008 - 2009</h3>
+                <p>
+                    Em 2007, ao conquistar a Recopa Sul-Americana, o Internacional conquistou também a chamada Tríplice
+                    Coroa Intercontinental.<br>
+                    Através de uma votação pelo site do clube, três alternativas de escudos foram apresentadas aos
+                    torcedores,
+                    mas apenas os sócios poderiam votar efetivamente para escolha.<br>
+                    O mais votado fora o escudo inspirado no Real Madrid da Espanha, com uma coroa logo acima do símbolo
+                    e adereços abaixo.
+                    Com este escudo, o Clube veio a conquistar a inédita Copa Sul-Americana, em 2008. Em 2009 ele foi
+                    removido.
+                </p>
+
+                <p>
+                    No ano do centenário Colorado, em 2009, o Clube optou por simplificar novamente o símbolo,
+                    removendo a coroa e os adereços e retornando a um estilo mais tradicional.<br>
+                    Na borda do escudo, representando um momento onde as fronteiras geográficas já não eram mais
+                    barreiras para o Internacional,
+                    fora posicionado o nome por extenso e o ano do surgimento do Clube.<br>
+                    No ano seguinte, o Inter conquistava mais uma vez a América.
+                </p>
+
+                <div class="imagens-distintivos">
+                    <img src="https://intprdbrscms.internacional.com.br/cms/assets/simbolos_distintivo_01_9b6907f413.png"
+                        alt="Distintivo Antigo">
+                    <img src="https://intprdbrscms.internacional.com.br/cms/assets/simbolos_distintivo_09_563fb91c17.png"
+                        alt="Distintivo com Coroa">
+                    <img src="https://intprdbrscms.internacional.com.br/cms/assets/simbolos_distintivo_10_0604a9c118.png"
+                        alt="Distintivo Atual">
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
