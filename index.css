@@ -4,7 +4,14 @@
     box-sizing: border-box;
 }
 
-.escudo{
+header{
 
-    max-width: 15vw;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    padding:1vw;
+    margin: 0 auto;
+
+}
+.escudo{
+    max-width: 5vw;
 }
