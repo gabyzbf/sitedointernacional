@@ -1,8 +1,16 @@
+html,
 body {
     margin: 0;
+    padding: 0;
+    height: 100%;
     font-family: Georgia, serif;
     background-color: #fff;
     color: #fff;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -35,7 +43,9 @@ header {
 }
 
 .container {
+    flex-grow: 1;
     display: flex;
+    min-height: 100%;
 }
 
 .menu-lateral {
@@ -48,6 +58,7 @@ header {
 .menu-lateral ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 .menu-lateral li {
@@ -61,17 +72,19 @@ header {
 }
 
 .titulos-section {
+    flex-grow: 1;
+    background-color: #c50000;
+    padding: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: #c50000;
-    padding: 30px;
-    flex-grow: 1;
+    align-items: flex-start;
 }
 
 .titulos-section figure {
     margin: 20px;
     text-align: center;
+    width: 150px;
 }
 
 .titulos-section img {
