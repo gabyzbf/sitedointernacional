@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #fff;
+    color: #fff;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    border-bottom: 5px solid #c50000;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #c50000;
+    font-weight: bold;
+}
+
+.titulo-pagina {
+    color: #c50000;
+    font-size: 40px;
+    text-shadow: 2px 2px #888;
+}
+
+.login-link {
+    color: #c50000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+}
+
+.menu-lateral {
+    width: 160px;
+    background-color: #fff;
+    color: #c50000;
+    padding-top: 20px;
+}
+
+.menu-lateral ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-lateral li {
+    margin: 15px 10px;
+    font-weight: bold;
+}
+
+.menu-lateral a {
+    text-decoration: none;
+    color: #c50000;
+}
+
+.titulos-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #c50000;
+    padding: 30px;
+    flex-grow: 1;
+}
+
+.titulos-section figure {
+    margin: 20px;
+    text-align: center;
+}
+
+.titulos-section img {
+    width: 100px;
+    height: 130px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.titulos-section figcaption {
+    font-size: 14px;
+    color: white;
+}
