@@ -1,80 +1,114 @@
-
-section {
-    padding: 40px;
-    max-width: 800px;
-    margin: auto;
-    background-color: rgb(253, 253, 253);
-    margin-bottom: 20px;
-    box-shadow: 0 2px 5px rgb(255, 255, 255);
-}
-body {
-    font-family: Arial, sans-serif;
-    background-color: #B22222;
-    color: #fff;
+* {
     margin: 0;
     padding: 0;
-}
-
-.container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-    background-color: #B22222;
-    color: #B22222;
-}
-
-header {
-    text-align: center;
-    padding: 20px 0;
-}
-
-header img {
-    height: 80px;
-}
-
-h1 {
-    color: #B22222;
-    font-size: 2em;
-    margin-top: 0;
-}
-
-nav {
-    background-color: #ffffff;
-    padding: 10px;
-    margin-bottom: 20px;
-}
-
-nav a {
-    color: #B22222;
-    margin-right: 15px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: white;
+    border-bottom: 5px solid #c50000;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo-area img {
+    width: 60px;
+  }
+  
+  .logo-area h2 {
+    color: #c50000;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+  
+  header h1 {
+    color: #c50000;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .login-link {
+    color: #c50000;
     text-decoration: none;
     font-weight: bold;
-    position: static;
-}
-
-.hino {
-    display: f;
-    background-color: #f8f8f8;
-    color: #B22222;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-.imagens {
+    font-size: 14px;
+  }
+  
+  .container {
     display: flex;
-    margin-top: 20px;
-    display: flex;
-    gap: 10px;
-}
-
-.abc {
-    width: 10vw;
-    height: auto;
-}
-.imagens img  {
+    height: calc(100vh - 90px);
+  }
+  
+  .sidebar {
     width: 200px;
-    height: auto;
-    border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
+    background-color: #c50000;
+    padding: 20px 0;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+  }
+  
+  .sidebar li {
+    padding: 10px 20px;
+  }
+  
+  .sidebar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .sidebar li.active {
+    background-color: white;
+  }
+  
+  .sidebar li.active a {
+    color: #c50000;
+  }
+  
+  .content {
+    display: flex;
+    flex: 1;
+  }
+  
+  .left-column {
+    width: 40%;
+    background-color: #c50000;
+    color: white;
+    padding: 30px;
+    font-size: 14px;
+    overflow-y: auto;
+  }
+  
+  .left-column p {
+    margin-bottom: 15px;
+  }
+  
+  .left-column strong {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  
+  .right-column {
+    flex: 1;
+    background-image: url('https://logodownload.org/wp-content/uploads/2015/05/internacional-logo-escudo.png');
+    background-size: cover;
+    background-position: center;
+  }
+  
