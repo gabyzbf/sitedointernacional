@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cartão Destaque</title>
+  <link rel="stylesheet" href="atividade2.css" />
+</head>
+<body>
+  <div id="cartao-destaque">Passe o mouse aqui!</div>
+
+  <script>
+    const cartao = document.getElementById('cartao-destaque');
+    cartao.addEventListener('mouseover', () => {
+      cartao.classList.add('destacado');
+    });
+    cartao.addEventListener('mouseout', () => {
+      cartao.classList.remove('destacado');
+    });
+  </script>
+</body>
+</html>

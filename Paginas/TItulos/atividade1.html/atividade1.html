@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 1 - Validação de Nome</title>
+    <link rel="stylesheet" href="atividade1.css">
+</head>
+<body>
+    <label for="input-nome">Nome:</label>
+    <input type="text" id="input-nome">
+    <p id="mensagem-erro"></p>
+    <button id="validar-btn">Validar</button>
+    <script>
+        const inputNome = document.getElementById('input-nome');
+        const mensagemErro = document.getElementById('mensagem-erro');
+        const botaoValidar = document.getElementById('validar-btn');
+        botaoValidar.addEventListener('click', function () {
+            if (inputNome.value.trim() === '') {
+                mensagemErro.textContent = 'Por favor, digite seu nome.';
+                mensagemErro.style.display = 'block';
+            } else {
+                mensagemErro.textContent = '';
+                mensagemErro.style.display = 'none';
+            }
+        });
+    </script>
+
+</body>
+</html>

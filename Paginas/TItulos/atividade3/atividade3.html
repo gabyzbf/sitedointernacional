@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Adicionar Item à Lista</title>
+  <link rel="stylesheet" href="atividade3.css" />
+</head>
+<body>
+
+  <input type="text" id="novo-item-input" placeholder="Digite um novo item" />
+  <button id="adicionar-btn">Adicionar Item</button>
+
+  <ul id="minha-lista"></ul>
+  <script>
+    const input = document.getElementById('novo-item-input');
+    const botao = document.getElementById('adicionar-btn');
+    const lista = document.getElementById('minha-lista');
+
+    botao.addEventListener('click', () => {
+      const valor = input.value.trim(); 
+      if (valor !== '') {
+        const novoItemLi = document.createElement('li');
+        novoItemLi.textContent = valor;
+        lista.appendChild(novoItemLi);
+        input.value = '';
+        input.focus(); 
+      }
+    });
+  </script>
+
+</body>
+</html>
